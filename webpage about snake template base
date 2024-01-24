@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+@Author Robert . N
+@stundent # 000383615
+@ 01/24/24
+
+
+// Comment about the page below website for this page was intend to have a small daft about snakes
+// this is just a test to build a simple website outline to build apawn and grow as simple template base. \
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: #333;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Snake Info</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#snakes">Snakes</a>
+        <a href="#contact">Contact</a>
+    </nav>
+// home tab link // later will convert into a nav bar 
+    <section id="home">
+        <h2>Welcome to Snake Info</h2>
+        <p>Explore the fascinating world of snakes and learn about different species.</p>
+    </section>
+// snake header and size adjustment 
+    <section id="snakes">
+        <h2>Types of Snakes</h2>
+        <p>Here are some popular types of snakes:</p>
+        <ul>
+            <li>Python</li>
+            <li>Cobra</li>
+            <li>Rattlesnake</li>
+            <li>Boa Constrictor</li>
+        </ul>
+    </section>
+// contact section template for bottom of page 
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to contact us:</p>
+        <p>Email: info@snakeinfo.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Snake Info</p>
+    </footer>
+
+</body>
+</html>
